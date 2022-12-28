@@ -1,0 +1,54 @@
+body{
+  background-color: rgba(185, 184, 192, 0.713);
+}
+table{
+  position: absolute;
+  top: 45px;
+  left: 150px;
+  border-collapse: collapse;
+  background-color:rgb(245, 249, 247);
+}
+td{
+  width: 40%;
+  text-align: center;
+}
+label{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: bold;
+}
+.input{
+  width: 225px;
+  padding: 2px;
+  margin: 3px;
+  font-size: medium;
+}
+.input2{
+  background: transparent;
+  border: none;
+  font-size: larger;
+}
+.div2{
+  display: none;
+  margin: 30px;
+  text-align: left;
+}
+b{
+  font-size: larger;  
+}
+button{
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px ;
+  border: none;
+  border-radius: 4px;
+  background-color:#366bd5;
+}
+.btn1:hover{
+  background-color: #04AA6D;
+}
+.btn2:hover{
+  background-color: #9d280a;
+}

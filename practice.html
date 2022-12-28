@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <table border="1" cellspacing="10px" cellpadding="40px" width="80%" height="85%" style="border-color: rgb(17, 41, 31);">
+    <tr>
+      <td>
+        <h1>Create Form</h1>
+        <div>
+          <label for="name">Payee name</label><br>
+          <input type="text" id="info_1" class="input">
+          <br><br>
+          <label for="">Payment Method:</label><br>
+          <select name="" id="info_2" class="input">
+            <option value="Bkash">bKash</option>
+            <option value="Rocket">Rocket</option>
+            <option value="Nagad">Nagad</option>
+          </select>
+          <br><br>
+          <label for="name">Wallet Number</label><br>
+          <input type="text" id="info_3" class="input">
+          <br><br>
+          <label for="name">Transaction Id</label><br>
+          <input type="text" id="info_4" class="input">
+          <br><br>
+          <button onclick="load()" class="btn1">Submit</button>
+        </div>
+      </td>
+      <td>
+        <h1>Response</h1>
+        <br><br>
+        <div id="demo" class="div2">
+          <b>Payee Name:</b> <input type="text" id="info1" class="input2">
+          <br><br>
+          <b>Payment Method:</b> <input type="text" id="info2" class="input2">
+          <br><br>
+          <b>Wallet Number: </b> <input type="text" id="info3" class="input2">
+          <br><br>
+          <b>Transaction Id: </b> <input type="text" id="info4" class="input2">
+          <br><br>
+        </div>
+        <br><br>
+        <button onclick="showdata()" class="btn2">Press here to check</button>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
